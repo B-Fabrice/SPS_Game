@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset = "utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0" >
+	<meta http-equiv="x-UA-Compatible" content="ie=edge">
+	<!--<meta http-equiv="refresh" content="30">-->
+	<title>Javascript on stroid</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body onkeypress="window.location.reload()">
+	<div class="container-3">
+		<h2>Paper Scissor Stone Challenge</h2>
+		<div class="flex-box-rps" id="flex-box-div">
+			<img id = "rock" src="stone.jpg" height=150px width=150px onclick="rpsGame(this)">
+			<img id = "paper" src="paper.jpg"height=150px width=150px onclick="rpsGame(this)">
+			<img id = "scissors" src="Scissors.jpg" height=150px width=150px onclick="rpsGame(this)">
+		</div>
+	</div>
+
+	<script src="gameScript.js"></script>
+</body>
+</html>
